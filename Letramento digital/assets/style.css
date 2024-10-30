@@ -1,0 +1,79 @@
+ .menu-icon {
+     width: 35px;
+     /* Tamanho da imagem do menu */
+     display: block;
+     /* Faz a imagem ficar em linha em bloco */
+     margin: 0 auto;
+     /* Centraliza a imagem */
+     transition: 300ms;
+ }
+
+ .nav-item {
+     text-align: center;
+     /* Centraliza o texto */
+ }
+
+ .tamaho {
+     height: 200px !important;
+ }
+
+ #color {
+     background-color: rgb(245, 245, 245) !important;
+ }
+
+ .carousel-item img {
+     width: 100%;
+     /* Ajusta a largura da imagem para 100% */
+     height: 450px;
+     /* Define a altura das imagens */
+     object-fit: cover;
+     /* Cobre a área sem distorcer a imagem */
+
+ }
+
+ body {
+     padding-top: 91px;
+     /* Ajuste conforme necessário */
+ }
+
+ #color {
+     background-color: #ffffff !important;
+ }
+
+ .card-animation {
+     transition: 0.5s;
+     background-color: #fefefe;
+     border: none;
+     box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.082);
+     border-radius: 10px;
+
+     img {
+         transition: 1s;
+     }
+
+     img:hover {
+         scale: 1.03;
+     }
+ }
+
+ .card-animation:hover {
+     transform: translatey(-10px);
+     box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.233);
+
+ }
+
+ .menu-icon:hover {
+     scale: 1.5;
+ }
+
+ .img-tamanho {
+     height: 300px;
+ }
+
+ nav {
+     box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.192);
+ }
+
+ .margin {
+     margin-top: 100px !important;
+ }

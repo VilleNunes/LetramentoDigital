@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <nav id="color" class="navbar navbar-expand-lg p-2 navbar-light  fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link px-5 font-weight-bold" href="index.html">
+                            <img src="assets/img/botao-de-inicio.png" alt="" class="menu-icon">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5  font-weight-bold" href="conhecaEquipe.html">
+                            <img src="assets/img/silhueta-de-multiplos-usuarios.png" alt="" class="menu-icon">
+                            Conheça a Equipe
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5  font-weight-bold" href="proximoEvento.html">
+                            <img src="assets/img/evento.png" alt="" class="menu-icon">
+                            Proximo Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5  font-weight-bold" href="encontrosAnteriores.html">
+                            <img src="assets/img/reuniao.png" alt="" class="menu-icon">
+                            Encontros Anteriores
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" style="height: 40px;"> <!-- Logo no lado direito -->
+            </a>
+        </div>
+    </nav>
+    <!--FIm nav Bar-->
+
+    <div class="container mt-5 margin">
+        <h2 class="text-center mb-5">Galeria de Encontros Passados</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-animation">
+                    <img src="assets/img/image7.jpg" height="260px" class="card-img-top" alt="Encontro de setembro"
+                        data-toggle="modal" data-target="#modal1">
+                    <div class="card-body">
+                        <h5 class="card-title">Encontro de Setembro</h5>
+                        <p class="card-text">Introdução ao uso de tablets.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card card-animation">
+                    <img src="assets/img/image6.jpg" height="260px" class="card-img-top" alt="Encontro de Outubro"
+                        data-toggle="modal" data-target="#modal2">
+                    <div class="card-body">
+                        <h5 class="card-title">Encontro de Outubro</h5>
+                        <p class="card-text">Exploração de aplicativos úteis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card card-animation">
+                    <img src="assets/img/image3.jpg" class="card-img-top" height="260px" alt="Vídeo de Novembro"
+                        data-toggle="modal" data-target="#modal6">
+                    <div class="card-body">
+                        <h5 class="card-title">Vídeo de Novembro</h5>
+                        <p class="card-text">Dicas para otimização de dispositivos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container margin mt-5">
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-animation">
+                    <img src="assets/img/image5.jpg" height="260px" class="card-img-top" alt="Encontro de setembro"
+                        data-toggle="modal" data-target="#modal3">
+                    <div class="card-body">
+                        <h5 class="card-title">Encontro de Setembro</h5>
+                        <p class="card-text">Introdução ao uso de tablets.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card card-animation">
+                    <img src="assets/img/image4.jpg" height="260px" class="card-img-top" alt="Encontro de Outubro"
+                        data-toggle="modal" data-target="#modal4">
+                    <div class="card-body">
+                        <h5 class="card-title">Encontro de Outubro</h5>
+                        <p class="card-text">Exploração de aplicativos úteis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card card-animation">
+                    <img src="assets/img/image1.jpg" class="card-img-top" alt="Vídeo de Novembro" data-toggle="modal"
+                        data-target="#modal5">
+                    <div class="card-body">
+                        <h5 class="card-title">Vídeo de Novembro</h5>
+                        <p class="card-text">Dicas para otimização de dispositivos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Encontro de Setembro -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Encontro de Setembro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/image7.jpg" class="img-fluid" alt="Encontro de setembro">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Encontro de Outubro -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Encontro de Outubro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/image6.jpg" class="img-fluid" alt="Encontro de outubro">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Encontro de Setembro -->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Encontro de Setembro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/image4.jpg" class="img-fluid" alt="Encontro de setembro">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Encontro de Outubro -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Encontro de Outubro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/image5.jpg" class="img-fluid" alt="Encontro de outubro">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Vídeo de Novembro -->
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Vídeo de Novembro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="765" height="315" src="https://www.youtube.com/embed/ClL1nSA0XHk?si=Wk645W608qNLAzew"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Vídeo de Novembro -->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Vídeo de Novembro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="765" height="315" src="https://www.youtube.com/embed/ClL1nSA0XHk?si=Wk645W608qNLAzew"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center margin text-white" style="background-color: #515253">
+        <div class="container">
+
+            <section class="mt-0">
+
+                <div class="row text-center d-flex justify-content-center pt-5">
+
+                    <div class="col-md-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="index.html" class="text-white">Home</a>
+                        </h6>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="conhecaEquipe.html" class="text-white">Conheça a Equipe</a>
+                        </h6>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="proximoEvento.html" class="text-white">Proximo Evento</a>
+                        </h6>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="encontrosAnteriores.html" class="text-white">Encontros Anteriores</a>
+                        </h6>
+                    </div>
+
+
+                </div>
+            </section>
+            <hr class="my-5" />
+
+            <div class="container my-5">
+                <h2 class="text-center mb-4">Contato</h2>
+
+                <div class="row">
+                    <div class="col-md-6 mb-4 ">
+                        <h5>Informações de Contato</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <strong>Email:</strong> letramentoDigita@gmail.com
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <strong>Telefone:</strong> (44) 9999-9999
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <strong>Localização:</strong> Av. Paraná 7327, Zona III, CEP 87502-000, Umuarama - PR
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <h5>Redes Sociais</h5>
+                        <div class="">
+                            <a href="https://api.whatsapp.com/send?phone=5544997060488" class="btn btn-success me-2"
+                                target="_blank">
+                                <i class="fab fa-whatsapp"></i> Inscreva-se pelo WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024
+            <a class="text-white">"Projeto Letramento Digital</a>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+              z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
